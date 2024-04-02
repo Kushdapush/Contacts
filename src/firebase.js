@@ -6,11 +6,12 @@ import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: "tutorial-5a2cf.firebaseapp.com",
-  projectId: "tutorial-5a2cf",
-  storageBucket: "tutorial-5a2cf.appspot.com",
-  messagingSenderId: "585126334212",
-  appId: "1:585126334212:web:8539eafc56885e1b4c4a51"
+  authDomain: "contacts-c3567.firebaseapp.com",
+  projectId: "contacts-c3567",
+  storageBucket: "contacts-c3567.appspot.com",
+  messagingSenderId: "884985167388",
+  appId: "1:884985167388:web:7343510a28f405c39569d9",
+  measurementId: "G-1LCS99RDEP"
 };
 
 const app = initializeApp(firebaseConfig);
